@@ -38,7 +38,7 @@ List * createList() {
 
 void * firstList(List * list) {
     list->current = list->head;
-    return list;
+    list->head->dato;
 }
 
 void * nextList(List * list) {
