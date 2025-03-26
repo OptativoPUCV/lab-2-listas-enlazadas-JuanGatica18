@@ -50,3 +50,29 @@ list.c:36:1: error: control reaches end of non-void function [-Werror=return-typ
 cc1.exe: all warnings being treated as errors
 Compilation failed
 1bd663b
+mi., 26 de mar. de 2025  8:55:38: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+In file included from test.c:5:0:
+list.c: In function 'createList':
+list.c:32:5: error: unknown type name 'list'
+     list *list = (list*) malloc(sizeof(list));
+     ^~~~
+list.c:32:24: error: expected expression before ')' token
+     list *list = (list*) malloc(sizeof(list));
+                        ^
+list.c:33:9: error: request for member 'head' in something not a structure or union
+     list->head = NULL;
+         ^~
+list.c:34:9: error: request for member 'current' in something not a structure or union
+     list->current = NULL
+         ^~
+list.c:35:5: error: expected ';' before 'return'
+     return list;
+     ^~~~~~
+list.c:36:1: error: control reaches end of non-void function [-Werror=return-type]
+ }
+ ^
+cc1.exe: all warnings being treated as errors
+Compilation failed
+4d7df3c
