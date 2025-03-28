@@ -62,7 +62,6 @@ void * prevList(List * list) {
 }
 
 void pushFront(List * list, void * data) {
-    nodo* aux = 
 }
 
 void pushBack(List * list, void * data) {
