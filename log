@@ -353,3 +353,13 @@ vi., 28 de mar. de 2025 20:54:13:
  tests:  9|3
 total_score: 35/70
 7027582
+vi., 28 de mar. de 2025 22:32:48: 
+ list.c | 7 +++++++
+ 1 file changed, 7 insertions(+)
+In file included from test.c:5:0:
+list.c: In function 'pushFront':
+list.c:71:9: error: 'List {aka struct List}' has no member named 'size'
+     list->size ++;
+         ^~
+Compilation failed
+299c152
