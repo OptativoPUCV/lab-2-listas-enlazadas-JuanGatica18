@@ -450,3 +450,9 @@ vi., 28 de mar. de 2025 23:52:14:
  tests:  11|1
 total_score: 55/70
 4aface4
+vi., 28 de mar. de 2025 23:54:29: 
+ list.c | 15 +++++++++++++++
+ 1 file changed, 15 insertions(+)
+ tests:  12|0
+total_score: 70/70
+fadd528
