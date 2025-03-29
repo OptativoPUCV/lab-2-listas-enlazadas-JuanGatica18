@@ -409,3 +409,9 @@ list.c:89:19: error: expected identifier before '>' token
                    ^
 Compilation failed
 8748bfb
+vi., 28 de mar. de 2025 23:22:15: 
+ list.c | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+ tests:  10|2
+total_score: 45/70
+df62838
